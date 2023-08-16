@@ -1,0 +1,26 @@
+git clone https://github.com/faculadina/Checkpoint-FacundoLana
+cd Checkpoint-FacundoLana/
+touch main.js
+touch index.html
+git add .
+git commit -m "commit 1 de FacundoLana"
+git push origin main
+git branch feature
+git checkout feature
+mkdir Hardware
+mkdir Software
+mkdir SeguridadInformatica
+touch SeguridadInformatica/resumen.txt
+touch Hardware/resumen.txt
+touch Software/resumen.txt
+git add .
+git commit -m "commit 2 de FacundoLana"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+touch comandos.txt
+
+
+
+
