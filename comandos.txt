@@ -20,7 +20,7 @@ git checkout main
 mv main.js resumenHardware.txt
 mv index.html resumenSoftware.txt
 touch comandos.txt
-
-
-
+git add .
+git commit -m "commit 3 de FacundoLana"
+git push origin main
 
